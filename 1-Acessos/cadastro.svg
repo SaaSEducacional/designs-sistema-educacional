@@ -1,0 +1,68 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo -->
+    <rect width="800" height="600" fill="#f8fafc" />
+    
+    <!-- Painel de Cadastro -->
+    <rect x="400" y="0" width="400" height="600" fill="#ffffff" />
+    
+    <!-- Área de imagem e decoração -->
+    <rect x="0" y="0" width="400" height="600" fill="#2563eb" />
+    <rect x="0" y="0" width="400" height="600" fill="#1e40af" opacity="0.3" />
+    
+    <!-- Círculos decorativos -->
+    <circle cx="100" cy="150" r="180" fill="#2563eb" opacity="0.4" />
+    <circle cx="350" cy="500" r="150" fill="#2563eb" opacity="0.4" />
+    <circle cx="50" cy="450" r="80" fill="#2563eb" opacity="0.3" />
+    
+    <!-- Logo e título na área de imagem -->
+    <text x="70" y="100" font-family="Arial" font-size="28" fill="white" font-weight="bold">EDULEARN</text>
+    <text x="70" y="130" font-family="Arial" font-size="16" fill="white" opacity="0.8">Plataforma de Ensino</text>
+    
+    <!-- Slogan principal -->
+    <text x="70" y="250" font-family="Arial" font-size="24" fill="white" font-weight="bold">Comece sua</text>
+    <text x="70" y="285" font-family="Arial" font-size="24" fill="white" font-weight="bold">jornada de</text>
+    <text x="70" y="320" font-family="Arial" font-size="24" fill="white" font-weight="bold">aprendizado hoje</text>
+    
+    <!-- Descrição -->
+    <text x="70" y="360" font-family="Arial" font-size="14" fill="white" opacity="0.8">Junte-se a milhares de estudantes que</text>
+    <text x="70" y="385" font-family="Arial" font-size="14" fill="white" opacity="0.8">utilizam nossa plataforma para alcançar</text>
+    <text x="70" y="410" font-family="Arial" font-size="14" fill="white" opacity="0.8">seus objetivos acadêmicos.</text>
+    
+    <!-- Logotipo no painel de cadastro -->
+    <text x="450" y="80" font-family="Arial" font-size="24" fill="#1e293b" font-weight="bold">EDULEARN</text>
+    
+    <!-- Título do formulário -->
+    <text x="450" y="135" font-family="Arial" font-size="24" fill="#1e293b" font-weight="bold">Criar sua conta</text>
+    <text x="450" y="165" font-family="Arial" font-size="14" fill="#64748b">Preencha os dados abaixo para começar</text>
+    
+    <!-- Formulário de cadastro -->
+    <text x="450" y="205" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Nome completo</text>
+    <rect x="450" y="215" width="300" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="470" y="242" font-family="Arial" font-size="14" fill="#94a3b8">Seu nome completo</text>
+    
+    <text x="450" y="275" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">E-mail</text>
+    <rect x="450" y="285" width="300" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="470" y="312" font-family="Arial" font-size="14" fill="#94a3b8">exemplo@email.com</text>
+    
+    <text x="450" y="345" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Senha</text>
+    <rect x="450" y="355" width="300" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="470" y="382" font-family="Arial" font-size="14" fill="#94a3b8">••••••••</text>
+    
+    <text x="450" y="415" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Confirmar senha</text>
+    <rect x="450" y="425" width="300" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="470" y="452" font-family="Arial" font-size="14" fill="#94a3b8">••••••••</text>
+    
+    <!-- Curso de interesse -->
+    <text x="450" y="485" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Curso de interesse</text>
+    <rect x="450" y="495" width="300" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="470" y="522" font-family="Arial" font-size="14" fill="#94a3b8">Selecione um curso</text>
+    <polygon points="730,517 720,512 720,522" fill="#94a3b8" />
+    
+    <!-- Botão de cadastro -->
+    <rect x="450" y="560" width="300" height="50" rx="8" fill="#2563eb" />
+    <text x="600" y="590" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">CRIAR CONTA</text>
+    
+    <!-- Link para login -->
+    <text x="505" y="630" font-family="Arial" font-size="14" fill="#64748b">Já tem uma conta?</text>
+    <text x="630" y="630" font-family="Arial" font-size="14" fill="#2563eb" font-weight="bold">Faça login</text>
+  </svg>

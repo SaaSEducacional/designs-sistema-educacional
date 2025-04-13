@@ -1,0 +1,110 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo -->
+    <rect width="800" height="600" fill="#f8fafc" />
+    
+    <!-- Sidebar de navegação -->
+    <rect width="220" height="600" fill="#ffffff" />
+    <rect width="220" height="600" fill="#1e40af" opacity="0.05" />
+    
+    <!-- Logo na sidebar -->
+    <rect x="30" y="30" width="160" height="40" rx="8" fill="#2563eb" opacity="0.9" />
+    <text x="110" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">EDULEARN</text>
+    
+    <!-- Itens de menu -->
+    <g opacity="0.8">
+      <text x="60" y="125" font-family="Arial" font-size="14" fill="#64748b">Dashboard</text>
+      <circle cx="35" cy="120" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="175" font-family="Arial" font-size="14" fill="#64748b">Meus Cursos</text>
+      <circle cx="35" cy="170" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="225" font-family="Arial" font-size="14" fill="#64748b">Simulados</text>
+      <circle cx="35" cy="220" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="275" font-family="Arial" font-size="14" fill="#64748b">Calendário</text>
+      <circle cx="35" cy="270" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="325" font-family="Arial" font-size="14" fill="#64748b">Ranking</text>
+      <circle cx="35" cy="320" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g>
+      <rect x="20" y="350" width="180" height="40" rx="6" fill="#2563eb" opacity="0.1" />
+      <text x="60" y="375" font-family="Arial" font-size="14" fill="#1e40af" font-weight="bold">Meu Perfil</text>
+      <circle cx="35" cy="370" r="6" fill="#2563eb" />
+    </g>
+    
+    <!-- Perfil do usuário no rodapé da sidebar -->
+    <circle cx="45" cy="540" r="20" fill="#94a3b8" />
+    <text x="45" cy="540" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">JD</text>
+    <text x="115" y="535" font-family="Arial" font-size="14" fill="#334155" font-weight="bold">João Dias</text>
+    <text x="115" y="555" font-family="Arial" font-size="12" fill="#64748b">Aluno</text>
+    
+    <!-- Header principal -->
+    <rect x="220" y="0" width="580" height="70" fill="white" />
+    <line x1="220" y1="70" x2="800" y2="70" stroke="#e2e8f0" stroke-width="1" />
+    
+    <text x="250" y="43" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">Configurações de Perfil</text>
+    
+    <!-- Abas de configuração -->
+    <rect x="250" y="90" width="530" height="40" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    
+    <rect x="250" y="90" width="175" height="40" rx="8" fill="#2563eb" opacity="0.1" />
+    <text x="337" y="115" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">Perfil</text>
+    
+    <text x="513" y="115" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Conta</text>
+    
+    <text x="688" y="115" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Notificações</text>
+    
+    <!-- Conteúdo principal -->
+    <rect x="250" y="150" width="530" height="430" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    
+    <!-- Foto de perfil -->
+    <text x="280" y="180" font-family="Arial" font-size="16" fill="#1e293b" font-weight="bold">Foto de Perfil</text>
+    
+    <circle cx="315" cy="230" r="45" fill="#94a3b8" />
+    <text x="315" cy="230" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">JD</text>
+    
+    <rect x="380" y="210" width="120" height="35" rx="6" fill="#2563eb" opacity="0.1" />
+    <text x="440" y="232" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">Alterar foto</text>
+    
+    <rect x="510" y="210" width="120" height="35" rx="6" fill="#f1f5f9" />
+    <text x="570" y="232" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Remover</text>
+    
+    <!-- Informações pessoais -->
+    <text x="280" y="300" font-family="Arial" font-size="16" fill="#1e293b" font-weight="bold">Informações Pessoais</text>
+    
+    <!-- Nome -->
+    <text x="280" y="330" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Nome Completo</text>
+    <rect x="280" y="340" width="470" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="300" y="368" font-family="Arial" font-size="14" fill="#1e293b">João Dias Silva</text>
+    
+    <!-- Email -->
+    <text x="280" y="400" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">E-mail</text>
+    <rect x="280" y="410" width="470" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="300" y="438" font-family="Arial" font-size="14" fill="#1e293b">joao.dias@email.com</text>
+    
+    <!-- Codinome -->
+    <text x="280" y="470" font-family="Arial" font-size="14" fill="#475569" font-weight="bold">Codinome no Ranking</text>
+    <rect x="280" y="480" width="470" height="45" rx="8" fill="white" stroke="#cbd5e1" stroke-width="1" />
+    <text x="300" y="508" font-family="Arial" font-size="14" fill="#1e293b">Puma</text>
+    
+    <!-- Botões de ação -->
+    <rect x="530" y="545" width="120" height="45" rx="6" fill="#f1f5f9" />
+    <text x="590" y="573" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Cancelar</text>
+    
+    <rect x="660" y="545" width="120" height="45" rx="6" fill="#2563eb" />
+    <text x="720" y="573" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Salvar</text>
+    
+    <!-- Mensagem de sucesso -->
+    <rect x="250" y="90" width="530" height="40" rx="8" fill="#10b981" opacity="0.1" />
+    <text x="515" y="115" font-family="Arial" font-size="14" fill="#10b981" text-anchor="middle">Suas informações foram salvas com sucesso!</text>
+  </svg>

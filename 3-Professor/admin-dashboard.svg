@@ -1,0 +1,160 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo -->
+    <rect width="800" height="600" fill="#f8fafc" />
+    
+    <!-- Sidebar de navegação -->
+    <rect width="220" height="600" fill="#1e293b" />
+    
+    <!-- Logo na sidebar -->
+    <rect x="30" y="30" width="160" height="40" rx="8" fill="#2563eb" opacity="0.9" />
+    <text x="110" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">EDULEARN</text>
+    <text x="110" y="75" font-family="Arial" font-size="12" fill="#94a3b8" text-anchor="middle">Painel do Professor</text>
+    
+    <!-- Itens de menu -->
+    <g opacity="0.7">
+      <text x="60" y="125" font-family="Arial" font-size="14" fill="white">Dashboard</text>
+      <circle cx="35" cy="120" r="6" fill="white" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.7">
+      <text x="60" y="175" font-family="Arial" font-size="14" fill="white">Cursos</text>
+      <circle cx="35" cy="170" r="6" fill="white" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.7">
+      <text x="60" y="225" font-family="Arial" font-size="14" fill="white">Alunos</text>
+      <circle cx="35" cy="220" r="6" fill="white" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.7">
+      <text x="60" y="275" font-family="Arial" font-size="14" fill="white">Simulados</text>
+      <circle cx="35" cy="270" r="6" fill="white" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.7">
+      <text x="60" y="325" font-family="Arial" font-size="14" fill="white">Aulas ao Vivo</text>
+      <circle cx="35" cy="320" r="6" fill="white" opacity="0.3" />
+    </g>
+    
+    <g>
+      <rect x="20" y="350" width="180" height="40" rx="6" fill="white" opacity="0.1" />
+      <text x="60" y="375" font-family="Arial" font-size="14" fill="white" font-weight="bold">Relatórios</text>
+      <circle cx="35" cy="370" r="6" fill="white" />
+    </g>
+    
+    <!-- Perfil do usuário no rodapé da sidebar -->
+    <circle cx="45" cy="540" r="20" fill="#94a3b8" />
+    <text x="45" cy="540" font-family="Arial" font-size="14" fill="#1e293b" text-anchor="middle" dominant-baseline="middle">PF</text>
+    <text x="115" y="535" font-family="Arial" font-size="14" fill="white" font-weight="bold">Paulo Ferreira</text>
+    <text x="115" y="555" font-family="Arial" font-size="12" fill="#94a3b8">Professor</text>
+    
+    <!-- Header principal -->
+    <rect x="220" y="0" width="580" height="70" fill="white" />
+    <line x1="220" y1="70" x2="800" y2="70" stroke="#e2e8f0" stroke-width="1" />
+    
+    <text x="250" y="43" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">Relatórios e Analytics</text>
+    
+    <!-- Filtros -->
+    <rect x="560" y="20" width="90" height="30" rx="15" fill="#f1f5f9" />
+    <text x="605" y="40" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Curso</text>
+    
+    <rect x="660" y="20" width="110" height="30" rx="15" fill="#f1f5f9" />
+    <text x="715" y="40" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Último mês</text>
+    
+    <!-- Cards de métricas -->
+    <rect x="250" y="90" width="170" height="90" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="270" y="115" font-family="Arial" font-size="14" fill="#64748b">Alunos Ativos</text>
+    <text x="270" y="145" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">187</text>
+    <rect x="270" y="155" width="60" height="15" rx="7.5" fill="#10b981" opacity="0.1" />
+    <text x="300" y="167" font-family="Arial" font-size="10" fill="#10b981" text-anchor="middle">+12%</text>
+    
+    <rect x="430" y="90" width="170" height="90" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="450" y="115" font-family="Arial" font-size="14" fill="#64748b">Taxa de Conclusão</text>
+    <text x="450" y="145" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">68%</text>
+    <rect x="450" y="155" width="60" height="15" rx="7.5" fill="#10b981" opacity="0.1" />
+    <text x="480" y="167" font-family="Arial" font-size="10" fill="#10b981" text-anchor="middle">+4%</text>
+    
+    <rect x="610" y="90" width="170" height="90" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="630" y="115" font-family="Arial" font-size="14" fill="#64748b">Média de Notas</text>
+    <text x="630" y="145" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">7.6</text>
+    <rect x="630" y="155" width="60" height="15" rx="7.5" fill="#ef4444" opacity="0.1" />
+    <text x="660" y="167" font-family="Arial" font-size="10" fill="#ef4444" text-anchor="middle">-2%</text>
+    
+    <!-- Gráfico de Engajamento -->
+    <rect x="250" y="200" width="340" height="280" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="270" y="230" font-family="Arial" font-size="16" fill="#1e293b" font-weight="bold">Engajamento de Alunos</text>
+    <text x="270" y="250" font-family="Arial" font-size="12" fill="#64748b">Últimos 7 dias</text>
+    
+    <!-- Gráfico de barras simplificado -->
+    <rect x="270" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="270" y="360" width="30" height="60" rx="4" fill="#2563eb" />
+    <text x="285" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Seg</text>
+    
+    <rect x="310" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="310" y="330" width="30" height="90" rx="4" fill="#2563eb" />
+    <text x="325" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Ter</text>
+    
+    <rect x="350" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="350" y="310" width="30" height="110" rx="4" fill="#2563eb" />
+    <text x="365" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Qua</text>
+    
+    <rect x="390" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="390" y="300" width="30" height="120" rx="4" fill="#2563eb" />
+    <text x="405" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Qui</text>
+    
+    <rect x="430" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="430" y="320" width="30" height="100" rx="4" fill="#2563eb" />
+    <text x="445" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Sex</text>
+    
+    <rect x="470" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="470" y="380" width="30" height="40" rx="4" fill="#2563eb" />
+    <text x="485" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Sáb</text>
+    
+    <rect x="510" y="270" width="30" height="150" rx="4" fill="#f1f5f9" />
+    <rect x="510" y="390" width="30" height="30" rx="4" fill="#2563eb" />
+    <text x="525" y="435" font-family="Arial" font-size="10" fill="#64748b" text-anchor="middle">Dom</text>
+    
+    <text x="270" y="460" font-family="Arial" font-size="12" fill="#64748b">Média diária: 142 acessos</text>
+    
+    <!-- Desempenho nos Simulados -->
+    <rect x="610" y="200" width="170" height="280" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="630" y="230" font-family="Arial" font-size="16" fill="#1e293b" font-weight="bold">Desempenho - Simulados</text>
+    
+    <!-- Gráfico de pizza simplificado -->
+    <circle cx="695" cy="310" r="60" fill="transparent" stroke="#e2e8f0" stroke-width="60" />
+    <!-- Segmentos do gráfico -->
+    <path d="M 695 310 L 695 250 A 60 60 0 0 1 750 295 Z" fill="#2563eb" />
+    <path d="M 695 310 L 750 295 A 60 60 0 0 1 725 365 Z" fill="#10b981" />
+    <path d="M 695 310 L 725 365 A 60 60 0 0 1 645 360 Z" fill="#f59e0b" />
+    <path d="M 695 310 L 645 360 A 60 60 0 0 1 635 280 Z" fill="#ef4444" />
+    <path d="M 695 310 L 635 280 A 60 60 0 0 1 695 250 Z" fill="#94a3b8" />
+    
+    <!-- Legenda -->
+    <circle cx="635" cy="390" r="6" fill="#2563eb" />
+    <text x="650" y="395" font-family="Arial" font-size="12" fill="#64748b">Excelente (32%)</text>
+    
+    <circle cx="635" cy="415" r="6" fill="#10b981" />
+    <text x="650" y="420" font-family="Arial" font-size="12" fill="#64748b">Bom (28%)</text>
+    
+    <circle cx="635" cy="440" r="6" fill="#f59e0b" />
+    <text x="650" y="445" font-family="Arial" font-size="12" fill="#64748b">Regular (20%)</text>
+    
+    <circle cx="635" cy="465" r="6" fill="#ef4444" />
+    <text x="650" y="470" font-family="Arial" font-size="12" fill="#64748b">Baixo (15%)</text>
+    
+    <circle cx="635" cy="490" r="6" fill="#94a3b8" />
+    <text x="650" y="495" font-family="Arial" font-size="12" fill="#64748b">Não realizou (5%)</text>
+    
+    <!-- Relatórios disponíveis -->
+    <rect x="250" y="500" width="530" height="80" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="270" y="525" font-family="Arial" font-size="16" fill="#1e293b" font-weight="bold">Relatórios Detalhados</text>
+    
+    <rect x="270" y="535" width="160" height="35" rx="6" fill="#2563eb" opacity="0.1" />
+    <text x="350" y="557" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">Desempenho</text>
+    
+    <rect x="445" y="535" width="160" height="35" rx="6" fill="#2563eb" opacity="0.1" />
+    <text x="525" y="557" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">Frequência</text>
+    
+    <rect x="620" y="535" width="160" height="35" rx="6" fill="#2563eb" opacity="0.1" />
+    <text x="700" y="557" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle">Exportar (PDF)</text>
+  </svg>

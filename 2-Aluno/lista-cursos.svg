@@ -1,0 +1,117 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo -->
+    <rect width="800" height="600" fill="#f8fafc" />
+    
+    <!-- Sidebar de navegação -->
+    <rect width="220" height="600" fill="#ffffff" />
+    <rect width="220" height="600" fill="#1e40af" opacity="0.05" />
+    
+    <!-- Logo na sidebar -->
+    <rect x="30" y="30" width="160" height="40" rx="8" fill="#2563eb" opacity="0.9" />
+    <text x="110" y="55" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">EDULEARN</text>
+    
+    <!-- Itens de menu -->
+    <g opacity="0.8">
+      <text x="60" y="125" font-family="Arial" font-size="14" fill="#64748b">Dashboard</text>
+      <circle cx="35" cy="120" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g>
+      <rect x="20" y="150" width="180" height="40" rx="6" fill="#2563eb" opacity="0.1" />
+      <text x="60" y="175" font-family="Arial" font-size="14" fill="#1e40af" font-weight="bold">Meus Cursos</text>
+      <circle cx="35" cy="170" r="6" fill="#2563eb" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="225" font-family="Arial" font-size="14" fill="#64748b">Simulados</text>
+      <circle cx="35" cy="220" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="275" font-family="Arial" font-size="14" fill="#64748b">Calendário</text>
+      <circle cx="35" cy="270" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <g opacity="0.8">
+      <text x="60" y="325" font-family="Arial" font-size="14" fill="#64748b">Ranking</text>
+      <circle cx="35" cy="320" r="6" fill="#64748b" opacity="0.3" />
+    </g>
+    
+    <!-- Perfil do usuário no rodapé da sidebar -->
+    <circle cx="45" cy="540" r="20" fill="#94a3b8" />
+    <text x="45" cy="540" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dominant-baseline="middle">JD</text>
+    <text x="115" y="535" font-family="Arial" font-size="14" fill="#334155" font-weight="bold">João Dias</text>
+    <text x="115" y="555" font-family="Arial" font-size="12" fill="#64748b">Aluno</text>
+    
+    <!-- Header principal -->
+    <rect x="220" y="0" width="580" height="70" fill="white" />
+    <line x1="220" y1="70" x2="800" y2="70" stroke="#e2e8f0" stroke-width="1" />
+    
+    <text x="250" y="43" font-family="Arial" font-size="22" fill="#1e293b" font-weight="bold">Meus Cursos</text>
+    
+    <!-- Campo de busca -->
+    <rect x="580" y="20" width="170" height="30" rx="15" fill="#f1f5f9" />
+    <text x="600" y="40" font-family="Arial" font-size="14" fill="#94a3b8">Buscar cursos...</text>
+    
+    <!-- Filtros -->
+    <rect x="250" y="90" width="530" height="50" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    
+    <text x="280" y="120" font-family="Arial" font-size="14" fill="#64748b">Filtrar por:</text>
+    
+    <rect x="360" y="100" width="100" height="30" rx="15" fill="#2563eb" opacity="0.1" />
+    <text x="410" y="120" font-family="Arial" font-size="14" fill="#2563eb" text-anchor="middle" font-weight="bold">Todos</text>
+    
+    <rect x="470" y="100" width="100" height="30" rx="15" fill="#f1f5f9" />
+    <text x="520" y="120" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Em andamento</text>
+    
+    <rect x="580" y="100" width="100" height="30" rx="15" fill="#f1f5f9" />
+    <text x="630" y="120" font-family="Arial" font-size="14" fill="#64748b" text-anchor="middle">Concluídos</text>
+    
+    <!-- Cursos matriculados -->
+    <text x="250" y="170" font-family="Arial" font-size="18" fill="#1e293b" font-weight="bold">Cursos em andamento</text>
+    
+    <!-- Curso 1 -->
+    <rect x="250" y="190" width="530" height="140" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <rect x="250" y="190" width="6" height="140" rx="3" fill="#2563eb" />
+    
+    <text x="280" y="220" font-family="Arial" font-size="18" fill="#1e293b" font-weight="bold">Matemática para o ENEM</text>
+    <text x="280" y="245" font-family="Arial" font-size="14" fill="#64748b">Professor: Carlos Ferreira</text>
+    <text x="280" y="270" font-family="Arial" font-size="14" fill="#64748b">8 de 12 aulas concluídas</text>
+    
+    <rect x="280" y="290" width="300" height="8" rx="4" fill="#f1f5f9" />
+    <rect x="280" y="290" width="200" height="8" rx="4" fill="#2563eb" />
+    <text x="590" y="298" font-family="Arial" font-size="14" fill="#2563eb">67%</text>
+    
+    <rect x="670" y="220" width="90" height="40" rx="6" fill="#2563eb" />
+    <text x="715" y="245" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Continuar</text>
+    
+    <!-- Curso 2 -->
+    <rect x="250" y="350" width="530" height="140" rx="8" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <rect x="250" y="350" width="6" height="140" rx="3" fill="#10b981" />
+    
+    <text x="280" y="380" font-family="Arial" font-size="18" fill="#1e293b" font-weight="bold">Redação Nota 1000</text>
+    <text x="280" y="405" font-family="Arial" font-size="14" fill="#64748b">Professora: Ana Souza</text>
+    <text x="280" y="430" font-family="Arial" font-size="14" fill="#64748b">4 de 9 aulas concluídas</text>
+    
+    <rect x="280" y="450" width="300" height="8" rx="4" fill="#f1f5f9" />
+    <rect x="280" y="450" width="133" height="8" rx="4" fill="#10b981" />
+    <text x="590" y="458" font-family="Arial" font-size="14" fill="#10b981">44%</text>
+    
+    <rect x="670" y="380" width="90" height="40" rx="6" fill="#10b981" />
+    <text x="715" y="405" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">Continuar</text>
+    
+    <!-- Cursos disponíveis -->
+    <text x="250" y="520" font-family="Arial" font-size="18" fill="#1e293b" font-weight="bold">Cursos disponíveis para matrícula</text>
+    
+    <!-- Curso disponível 1 -->
+    <rect x="250" y="540" width="255" height="40" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="270" y="565" font-family="Arial" font-size="14" fill="#1e293b" font-weight="bold">Física para o ENEM</text>
+    <rect x="425" y="545" width="70" height="30" rx="15" fill="#2563eb" opacity="0.1" />
+    <text x="460" y="565" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle" font-weight="bold">Matrícula</text>
+    
+    <!-- Curso disponível 2 -->
+    <rect x="525" y="540" width="255" height="40" rx="6" fill="white" stroke="#e2e8f0" stroke-width="1" />
+    <text x="545" y="565" font-family="Arial" font-size="14" fill="#1e293b" font-weight="bold">Química Orgânica</text>
+    <rect x="700" y="545" width="70" height="30" rx="15" fill="#2563eb" opacity="0.1" />
+    <text x="735" y="565" font-family="Arial" font-size="12" fill="#2563eb" text-anchor="middle" font-weight="bold">Matrícula</text>
+  </svg>
